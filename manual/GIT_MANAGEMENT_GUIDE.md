@@ -230,6 +230,10 @@ git tag -d v9.5  # ⚠️ อย่าทำ!
 
 # อย่า reset กับ public commits
 git reset --hard HEAD~5  # ⚠️ อันตรายถ้า push แล้ว
+
+# อย่า commit ไฟล์ส่วนตัว
+git add npc*.json  # ⚠️ ข้อมูลส่วนตัว!
+git add api_config.json  # ⚠️ API keys!
 ```
 
 ### **✅ ALWAYS DO**

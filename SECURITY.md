@@ -44,3 +44,30 @@
 - All sensitive configuration files are listed in `.gitignore`
 - Local development files are protected
 - No credentials are stored in source code
+
+## 🔒 Personal Data Protection
+
+### NPC Character Files
+
+**DO NOT commit personal NPC data to Git!**
+
+- `npc*.json` files contain your personal character database
+- `new_friends.json` contains your friend list data
+- `learned_corrections.json` contains your personal corrections
+
+**Setup Instructions:**
+
+1. **Copy the example file:**
+   ```bash
+   cp npc.json.example npc.json
+   ```
+
+2. **Add your character data:**
+   - Customize character names, personalities, and roles
+   - These files will be automatically ignored by Git
+
+3. **Privacy Protection:**
+   - ✅ Personal character data stays local only
+   - ✅ Friend lists remain private
+   - ✅ Personal preferences protected
+   - ❌ Never share character databases publicly

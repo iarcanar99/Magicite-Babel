@@ -1,0 +1,18 @@
+{
+  "example_character": {
+    "name": "ตัวอย่างตัวละคร",
+    "gender": "male",
+    "pronoun": "เขา",
+    "personality": "friendly",
+    "role": "main",
+    "description": "ตัวอย่างการตั้งค่าตัวละคร"
+  },
+  "another_example": {
+    "name": "อีกตัวอย่าง",
+    "gender": "female", 
+    "pronoun": "เธอ",
+    "personality": "formal",
+    "role": "secondary",
+    "description": "ตัวอย่างตัวละครหญิงที่พูดสุภาพ"
+  }
+}

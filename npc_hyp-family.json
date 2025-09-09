@@ -1,0 +1,42 @@
+{
+    "main_characters": [
+        {
+            "firstName": "Main Character",
+            "lastName": "",
+            "gender": "Unknown",
+            "role": "Protagonist",
+            "relationship": "Player"
+        },
+        {
+            "firstName": "Sera Akika",
+            "lastName": "",
+            "gender": "Female",
+            "role": "Adventure",
+            "relationship": "Neutral",
+            "appearance": "",
+            "personality": "",
+            "background": "",
+            "notes": ""
+        }
+    ],
+    "npcs": [
+        {
+            "name": "Sample NPC",
+            "role": "Villager",
+            "description": "A sample NPC for your new game"
+        }
+    ],
+    "lore": {
+        "Game World": "World of HYP-family"
+    },
+    "character_roles": {
+        "Main Character": "พูดจาสุภาพ เป็นกันเอง",
+        "Sera Akika": "น้ำเสียงยั่วยวน พูดลามกได้ตรงไปตรงมา"
+    },
+    "word_fixes": {},
+    "_game_info": {
+        "name": "HYP-family",
+        "code": "hyp-family",
+        "description": "ข้อมูล NPC จากเกม HYP-family"
+    }
+}

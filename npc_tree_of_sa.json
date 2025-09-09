@@ -1,0 +1,187 @@
+{
+    "main_characters": [
+        {
+            "firstName": "啟示者",
+            "lastName": "",
+            "gender": "Unknown",
+            "role": "啟示者",
+            "relationship": "Player"
+        },
+        {
+            "firstName": "拉伊瑪",
+            "lastName": "",
+            "gender": "Female",
+            "role": "命運女神",
+            "relationship": "Goddess of Fate"
+        },
+        {
+            "firstName": "加比婭",
+            "lastName": "",
+            "gender": "Female",
+            "role": "火焰女神",
+            "relationship": "Goddess of Fire"
+        },
+        {
+            "firstName": "澤米娜",
+            "lastName": "",
+            "gender": "Female",
+            "role": "大地女神",
+            "relationship": "Goddess of Earth"
+        },
+        {
+            "firstName": "瓦卡麗涅",
+            "lastName": "",
+            "gender": "Female",
+            "role": "黃昏星空女神",
+            "relationship": "Goddess of Evening Star"
+        },
+        {
+            "firstName": "奧施莉奈",
+            "lastName": "",
+            "gender": "Female",
+            "role": "曙光女神",
+            "relationship": "Goddess of Dawn"
+        },
+        {
+            "firstName": "吉特涅",
+            "lastName": "",
+            "gender": "Female",
+            "role": "死亡女神",
+            "relationship": "Goddess of Death"
+        },
+        {
+            "firstName": "路塔",
+            "lastName": "",
+            "gender": "Female",
+            "role": "Adventure",
+            "relationship": "Neutral",
+            "appearance": "",
+            "personality": "",
+            "background": "",
+            "notes": ""
+        },
+        {
+            "firstName": "騎土拉凱達",
+            "lastName": "",
+            "gender": "Female",
+            "role": "Adventure",
+            "relationship": "Neutral",
+            "appearance": "",
+            "personality": "",
+            "background": "",
+            "notes": ""
+        },
+        {
+            "firstName": "Aranea",
+            "lastName": "",
+            "gender": "Female",
+            "role": "Protagonist",
+            "relationship": "player"
+        }
+    ],
+    "npcs": [
+        {
+            "name": "騎土拉凱達",
+            "role": "Knight",
+            "description": "Cavalier Lakeda"
+        }
+    ],
+    "lore": {
+        "劍士": "Swordsman",
+        "法師": "Wizard",
+        "弓箭手": "Archer",
+        "牧師": "Cleric",
+        "斥侯": "Scout",
+        "高地戰士": "Highlander",
+        "角鬥士": "Gladiator",
+        "輕裝步兵": "Peltast",
+        "元素使": "Elementalist",
+        "烈焰法師": "Pyromancer",
+        "寒冰法師": "Cryomancer",
+        "遊俠": "Ranger",
+        "造箭者": "Fletcher",
+        "神射手": "Hunter",
+        "聖殿十字軍": "Paladin",
+        "審判者": "Chaplain",
+        "瘟疫醫生": "Plague Doctor",
+        "流氓": "Rogue",
+        "暗殺者": "Assassin",
+        "忍者": "Shinobi",
+        "啟示者": "Revelator หรือแปลสั้นๆว่า 'ผู้กล้า'",
+        "神樹之日": "Medzio Diena - The catastrophic event 4 years ago when the Tree of Savior appeared and destroyed the capital",
+        "救世之光": "Light of Salvation - The divine power that saves the world",
+        "神聖樹": "Sacred Tree - Bridge connecting divine realm and human world",
+        "柯拉佩達": "Klaipėda - Main administrative city and mining center, starting point for Revelators",
+        "奧夏": "Orsha - Ancient southern kingdom city destroyed in Medzio Diena event",
+        "佩迪米安": "Fedimian - Sacred pilgrimage city of northern kingdom with religious significance",
+        "拉伊瑪": "Laima - Goddess of Fate",
+        "加比婭": "Gabija - Goddess of Fire",
+        "澤米娜": "Zemyna - Goddess of Earth",
+        "瓦卡麗涅": "Vakarine - Goddess of Evening Star",
+        "奧施莉奈": "Ausrine - Goddess of Dawn",
+        "吉特涅": "Giltine - Goddess of Death, main antagonistic force",
+        "奎波兒": "Kupoles - Servants of the goddesses, similar to angels in Lithuanian mythology",
+        "卡塔斯": "Kartas - Demon King, personification of chaos",
+        "巴伊加": "Baiga - Most trusted subordinate of Giltine",
+        "蓋斯蒂": "Gesti - Demon Queen",
+        "夏奧雷伊": "Šiauliai - Important dungeon region",
+        "凱利高原": "Keli Highland - High-level dungeon area",
+        "達坦森林": "Datan Forest - Forest region with Lithuanian mythological themes",
+        "世伊魯森林": "Šeimos Forest - Ancient forest location",
+        "克尼多斯森林": "Knidos Forest - Mystical forest area",
+        "競技場": "Arena - Main PvP mode with ranking and auto-chess battle mechanics",
+        "決鬥競技場": "Duel Arena - Player versus player combat system",
+        "公會": "Guild - Player organization system",
+        "公會挑戰副本": "Guild Challenge Dungeon - Group activities for guild members",
+        "公會討伐隊": "Guild Raid Party - Organized guild combat groups",
+        "公會王": "Guild Boss - Special boss encounters for guilds",
+        "瓦西麗莎裝備": "Vasilisa Equipment - New goddess-tier equipment standard",
+        "10超越瓦西麗莎": "10 Transcendent Vasilisa - Ultimate fully enhanced equipment",
+        "血晶系統": "Ichor System - Equipment customization system allowing stat transfer",
+        "血晶萃取": "Ichor Extraction - Advanced equipment enhancement function",
+        "白裝": "Common Equipment - Basic tier equipment",
+        "藍裝": "Magic Equipment - Second tier equipment",
+        "紫裝": "Rare Equipment - Third tier equipment",
+        "橘裝": "Unique Equipment - Fourth tier equipment",
+        "金裝": "Legendary Equipment - Fifth tier equipment",
+        "女神裝備": "Goddess Equipment - Highest tier equipment",
+        "記憶之石": "Memory Stone - Material dungeon type",
+        "分裂特異點": "Fractured Anomaly - Experience dungeon type",
+        "不吉遺跡": "Ominous Ruins - Transcendence material dungeon",
+        "隨行者系統": "Companion System - AI partner system with different rarities",
+        "女神隨行者": "Goddess Companion - Highest rarity AI partner",
+        "UR隨行者": "UR Companion - Ultra rare AI partner",
+        "SR隨行者": "SR Companion - Super rare AI partner",
+        "時裝系統": "Fashion System - Appearance customization with outfit sets and parts",
+        "千種時尚造型": "Thousand Fashion Styles - Rich customization options",
+        "市場": "Market - Player trading platform with auction features",
+        "拍賣場": "Auction House - Complete inter-player trading system",
+        "潛力值": "Potential Value - Equipment trading restriction system",
+        "BD配點": "Build Configuration - Popular term for class combination setups",
+        "黑奇附": "Dark Cavalry + Mystic + Enchanter - Classic combination setup",
+        "大師職業": "Master Class - Advanced job system requiring level 70+ and Master's Certificate",
+        "淚珠寶石": "Tear Gem - Material used to craft Master's Certificate",
+        "大師之證": "Master's Certificate - Item needed to unlock advanced job branches",
+        "路塔": "Luta - เทพธิดา",
+        "騎土拉凱達": "Cavalier Lakeda - อัศวินหญิง"
+    },
+    "character_roles": {
+        "啟示者": "น้ำเสียงมุ่งมั่น ฉลาด แน่วแน่ ยียวน",
+        "拉伊瑪": "น้ำเสียงลึกลับและมีอำนาจ พูดด้วยความรอบรู้เกี่ยวกับโชคชะตา มักใช้ถ้อยคำที่เป็นนิมิตและคำทำนาย",
+        "加比婭": "น้ำเสียงอบอุ่นแต่ทรงพลัง เป็นกันเองเหมือนแม่บ้านผู้ปกป้องครัวเรือน แต่สามารถแสดงความแข็งแกร่งเมื่อจำเป็น",
+        "澤米娜": "น้ำเสียงสุภาพและเมตตากรุณา พูดจาเหมือนแม่ที่อ่อนโยนแต่แข็งแกร่ง ให้ความรู้สึกมั่นคงและเชื่อถือได้",
+        "瓦卡麗涅": "น้ำเสียงลึกลับและชาญฉลาด มีความเป็นผู้นำทาง พูดด้วยความรอบคอบและไตร่ตรองก่อนตัดสินใจ",
+        "奧施莉奈": "น้ำเสียงใส สดใส เต็มไปด้วยความหวังและพลังบวก เป็นสัญลักษณ์ของการเริ่มต้นใหม่และแสงสว่าง",
+        "吉特涅": "น้ำเสียงเย็นชาและน่าขนลุก พูดจาเหมือนผู้ที่เหนือกว่าความตายและความมืด มีเสน่ห์ที่น่าสะพรึงกลัว",
+        "路塔": "น้ำเสียงใจดี แบบเทพธิดาขี้เล่น ชอบช่วยเหลือ",
+        "Aranea": "เด็ดเดี่ยว ฉลาด กวนเล็กน้อย"
+    },
+    "word_fixes": {
+        "0": "∘"
+    },
+    "_game_info": {
+        "name": "Tree of Savior M [TW]",
+        "code": "tree_of_sa",
+        "description": "ข้อมูล NPC และ Lore จากเกม Tree of Savior M เวอร์ชันไต้หวัน - โลกแฟนตาซีหลังการล่มสลายที่อิงจากเทพปกรณัมลิทัวเนีย"
+    }
+}

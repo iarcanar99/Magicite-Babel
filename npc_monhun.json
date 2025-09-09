@@ -1,0 +1,520 @@
+{
+    "main_characters": [
+        {
+            "firstName": "Miruryn",
+            "lastName": "",
+            "gender": "Female",
+            "role": "นักล่า",
+            "relationship": "ตัวเอกของเรื่อง"
+        },
+        {
+            "firstName": "Palico",
+            "lastName": "",
+            "gender": "ไม่ระบุ",
+            "role": "คู่หูของนักล่า",
+            "relationship": "ให้การสนับสนุนทั้งในการล่าและด้านจิตใจ"
+        },
+        {
+            "firstName": "Alma",
+            "lastName": "",
+            "gender": "Female",
+            "role": "ผู้จัดการของนักล่า",
+            "relationship": "จัดการคำขอการล่า, การอนุญาต, และภารกิจต่างๆ, ให้การสนับสนุนและความรู้"
+        },
+        {
+            "firstName": "Gemma",
+            "lastName": "",
+            "gender": "Female",
+            "role": "ช่างตีเหล็ก",
+            "relationship": "ดูแลการสร้างอาวุธและชุดเกราะ"
+        },
+        {
+            "firstName": "Nata",
+            "lastName": "",
+            "gender": "ชาย",
+            "role": "เด็กชายลึกลับ",
+            "relationship": "เดินทางไปกับนักล่า, ต่อมาเป็นผู้ประสานงานหมู่บ้าน"
+        },
+        {
+            "firstName": "Olivia",
+            "lastName": "",
+            "gender": "Female",
+            "role": "นักล่า",
+            "relationship": "ให้การสนับสนุนนักล่าหลักในฐานะ Support Hunter"
+        },
+        {
+            "firstName": "Erik",
+            "lastName": "",
+            "gender": "ชาย",
+            "role": "ผู้จัดการ",
+            "relationship": "ผู้จัดการหน่วย Astrum และนักชีววิทยา"
+        },
+        {
+            "firstName": "Werner",
+            "lastName": "",
+            "gender": "ชาย",
+            "role": "ช่างตีเหล็ก",
+            "relationship": "ช่างตีเหล็กของหน่วย Astrum, เชี่ยวชาญด้านเทคโนโลยีอาวุธ"
+        },
+        {
+            "firstName": "Fabius",
+            "lastName": "",
+            "gender": "ชาย",
+            "role": "ผู้นำของ Hunter's Guild",
+            "relationship": "ผู้ก่อตั้งคณะกรรมาธิการวิจัยดินแดนต้องห้าม"
+        },
+        {
+            "firstName": "Mirumeaw",
+            "lastName": "",
+            "gender": "Female",
+            "role": "Palico",
+            "relationship": "close ally"
+        }
+    ],
+    "npcs": [
+        {
+            "name": "Athos",
+            "role": "Palico",
+            "description": "Palico ของ Olivia"
+        },
+        {
+            "name": "Alessa",
+            "role": "นักล่า",
+            "description": "หนึ่งใน Support Hunter"
+        },
+        {
+            "name": "Rosso",
+            "role": "นักล่า",
+            "description": "หนึ่งใน Support Hunter"
+        },
+        {
+            "name": "Rove",
+            "role": "Wudwud",
+            "description": "Wudwud ผู้มีปรัชญา"
+        },
+        {
+            "name": "Zatoh",
+            "role": "ผู้พิทักษ์หมู่บ้าน",
+            "description": "ผู้พิทักษ์หมู่บ้านที่ไม่ไว้วางใจคนแปลกหน้า"
+        },
+        {
+            "name": "Y'sai",
+            "role": "NPC",
+            "description": "เพื่อนของ Zatoh"
+        },
+        {
+            "name": "Nona",
+            "role": "NPC",
+            "description": "เด็กสาวพื้นเมืองที่นักล่าช่วยไว้"
+        },
+        {
+            "name": "Kilama",
+            "role": "ผู้ค้า",
+            "description": "ผู้ค้า"
+        },
+        {
+            "name": "Musharpeye",
+            "role": "ผู้รวบรวมวัสดุ",
+            "description": "ผู้รวบรวมวัสดุ"
+        },
+        {
+            "name": "Gawdygog",
+            "role": "ผู้ค้า",
+            "description": "ผู้ค้า"
+        },
+        {
+            "name": "Aida",
+            "role": "ผู้ค้า",
+            "description": "ผู้ค้า"
+        },
+        {
+            "name": "Dogard",
+            "role": "ผู้รวบรวมวัสดุ",
+            "description": "ผู้รวบรวมวัสดุ"
+        },
+        {
+            "name": "Yabran",
+            "role": "หัวหน้าเผ่า",
+            "description": "หัวหน้าเผ่า Oilfolk"
+        },
+        {
+            "name": "Ren",
+            "role": "ผู้ค้า",
+            "description": "ผู้ค้า"
+        },
+        {
+            "name": "Sekka",
+            "role": "ผู้รวบรวมวัสดุ",
+            "description": "ผู้รวบรวมวัสดุ"
+        },
+        {
+            "name": "Rysher",
+            "role": "ผู้ค้า",
+            "description": "ผู้ค้า"
+        },
+        {
+            "name": "Murtabak",
+            "role": "ผู้ค้า",
+            "description": "ผู้ค้า"
+        },
+        {
+            "name": "Apar",
+            "role": "ผู้ให้ภารกิจ",
+            "description": "ผู้ให้ภารกิจรองและยามของหมู่บ้าน"
+        },
+        {
+            "name": "Plumpeach",
+            "role": "ผู้ค้า",
+            "description": "ผู้ค้า"
+        },
+        {
+            "name": "Sabar",
+            "role": "ผู้รวบรวมวัสดุ",
+            "description": "ผู้รวบรวมวัสดุ"
+        },
+        {
+            "name": "Amone",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Conut",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Dareel",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Elder Ela",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Felicita",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Ferdinand",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Hazel",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Jack",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Karab",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Luke",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Old Nana",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Raadu",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Ronta",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Samin",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Santiago",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Tek",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Tom",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Chomber",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Gin",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Kanya",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Ralph",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Sassafrill",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Arthur",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Maki",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Roqul",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Satesh",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Pista",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Lauruel",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Lemuel",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Tanea",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Tasheen",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Cobb",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Rex",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Tetsuzan",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "The Allhearken",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Vio",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Abala",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Aerin",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Anolia",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Arakie",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Ardeni",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Awdra",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Bangard",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Bearbelly",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Bikita",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Bruntzo",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Caph",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Charo",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Clara",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Clorolo",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Cruz",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Danzamuffin",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Doler",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Donny",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Dotoma",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Dozy",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Eloosivy",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Eti",
+            "role": "NPC",
+            "description": "NPC"
+        },
+        {
+            "name": "Etig",
+            "role": "NPC",
+            "description": "NPC"
+        }
+    ],
+    "character_roles": {
+        "Miruryn": "มั่นใจ, ตรงไปตรงมา, ไม่หยาบ,  อาจมีอารมณ์ขันแบบประชดประชันบ้าง",
+        "Palico": "ให้กำลังใจ, ช่วยเหลือ, อาจมีอารมณ์ขันน่ารัก, ให้คำแนะนำที่ชัดเจน",
+        "Alma": "รอบรู้, ให้การสนับสนุน, สุภาพอ่อนโยน, อาจมีลังเลบ้าง, ให้ข้อมูลเชิงลึกเกี่ยวกับวัฒนธรรมและโบราณคดี",
+        "Gemma": "สนุกสนาน, เข้ากับคนง่าย, ทันสมัย, ให้กำลังใจ, กระตือรือร้น",
+        "Nata": "ในช่วงแรก ขี้กลัว, ไม่มั่นใจ, พูดมาก, ไร้เดียงสา, เห็นอกเห็นใจ, แต่จะพัฒนาไปเป็นคนที่มั่นใจและมีความเข้าใจโลกมากขึ้น",
+        "Olivia": "เด็ดขาด, มั่นใจในการเป็นผู้นำ, ใจดีและให้การสนับสนุน, อาจแสดงความเปราะบางออกมาบ้าง",
+        "Erik": "กระตือรือร้น, ชอบอธิบายรายละเอียดเกี่ยวกับชีววิทยา, อาจจะดูซื่อๆ หรือไม่ทันคนในบางครั้ง, พูดเสียงเบา",
+        "Werner": "เน้นเทคนิค, ตรงไปตรงมา, อาจจะพูดไม่เก่งหรือไม่ค่อยสนใจเรื่องสังคม, มีสมาธิกับงานของตัวเอง",
+        "Fabius": "เป็นทางการ, มีอำนาจ, ให้ความเคารพ, ฉลาดและมีประสบการณ์",
+        "Mirumeaw": "ภาษาแมว น่ารัก ขี้เล่น กวนประสาท"
+    },
+    "lore": {
+        "The Forbidden Lands": "ภูมิภาคที่ไม่เคยมีใครสำรวจมาก่อน, รกร้าง, ไม่หยุดนิ่ง, มีสภาพแวดล้อมที่เปลี่ยนแปลงตลอดเวลา",
+        "White Wraith": "มอนสเตอร์ลึกลับที่โจมตีหมู่บ้านของ Nata",
+        "Guild": "องค์กรที่ควบคุมนักล่า, ป้องกันความเสียหายต่อระบบนิเวศ",
+        "Keepers": "กลุ่มชนของ Nata ที่ถูกโจมตีโดย White Wraith",
+        "Avis Unit": "หน่วยที่นักล่าสังกัดอยู่",
+        "Astrum Unit": "หน่วยสำรวจอีกหน่วยหนึ่ง นำโดย Olivia",
+        "Handler": "ผู้จัดการคำขอการล่า, การอนุญาต, และภารกิจต่างๆ",
+        "Smithy": "ช่างฝีมือที่ดูแลการสร้างอาวุธและชุดเกราะ",
+        "Support Hunter System": "ระบบที่อนุญาตให้เรียก NPC Support Hunter มาช่วยในการล่า",
+        "Seikret": "สัตว์พาหนะคล้ายไดโนเสาร์",
+        "Focus Mode": "กลไกการเล่นเกมที่อนุญาตให้โจมตีเป้าหมายไปยังส่วนต่างๆ ของร่างกายมอนสเตอร์ได้อย่างแม่นยำ",
+        "Wounds": "ความเสียหายที่เกิดขึ้นกับมอนสเตอร์",
+        "Slinger": "อุปกรณ์ที่ติดอยู่กับแขนของนักล่า ใช้สำหรับจับและยิงสิ่งของต่างๆ",
+        "Forbidden Lands Research Commission": "องค์กรที่รับผิดชอบในการสำรวจ Forbidden Lands",
+        "Windward Plains": "ชีวนิเวศใน Forbidden Lands",
+        "Scarlet Forest": "ชีวนิเวศใน Forbidden Lands",
+        "Oilwell Basin": "ชีวนิเวศใน Forbidden Lands",
+        "Iceshard Cliffs": "ชีวนิเวศใน Forbidden Lands",
+        "Ruins of Wyveria": "ชีวนิเวศใน Forbidden Lands",
+        "Suja Peaks of Accord": "ชีวนิเวศใน Forbidden Lands",
+        "Inclemency": "ปรากฏการณ์ทางสภาพอากาศที่เป็นเอกลักษณ์ของแต่ละภูมิภาค",
+        "Sandtide": "ปรากฏการณ์ทางสภาพอากาศ",
+        "Downpour": "ปรากฏการณ์ทางสภาพอากาศ",
+        "Firespring": "ปรากฏการณ์ทางสภาพอากาศ",
+        "Monster Herds": "ฝูงมอนสเตอร์ขนาดใหญ่",
+        "Village Intermediary": "บทบาทที่ Nata รับหน้าที่, แลกเปลี่ยนไอเท็มและเรียกคืนวัสดุ",
+        "Wyverian": "ภาษาในจักรวาลของ Monster Hunter",
+        "Landspine": "คำศัพท์เฉพาะที่เกี่ยวข้องกับ Oilwell Basin",
+        "Wylk Crystals": "คำศัพท์เฉพาะที่เกี่ยวข้องกับ Oilwell Basin"
+    },
+    "word_fixes": {},
+    "_game_info": {
+        "name": "Monster Hunter Wilds",
+        "code": "monhun",
+        "description": "ข้อมูล NPC จากเกม Monster Hunter Wilds"
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(mkdir:*)",
+      "Bash(organize_assets.bat)",
+      "Bash(cmd /c:*)",
+      "Bash(dir assets)",
+      "Bash(dir)",
+      "Bash(rmdir:*)",
+      "Bash(copy MBB.spec MBB_spec_modified.spec)",
+      "Bash(cp:*)",
+      "Bash(build_mbb_v91_no_setup.bat)",
+      "Bash(del \"C:\\MBB_PROJECT\\dist\\MBB.exe\")",
+      "Bash(python:*)",
+      "Bash(MBB.exe)",
+      "Bash(start MBB.exe)",
+      "Bash(timeout:*)",
+      "Bash(ls:*)",
+      "Bash(dir:*)",
+      "Bash(pyinstaller:*)",
+      "Bash(rm:*)",
+      "Bash(./build_mbb_package.bat)",
+      "Bash(cmd:*)",
+      "Bash(mbb.exe:*)",
+      "Bash(./MBB.exe)",
+      "Bash(build_mbb_package.bat)",
+      "Bash(pip install:*)",
+      "Bash(grep:*)",
+      "Bash(true)",
+      "Bash(\"./MBB.exe\")",
+      "Bash(copy:*)",
+      "Bash(\"./build_mbb_package.bat\")"
+    ],
+    "deny": []
+  }
+}

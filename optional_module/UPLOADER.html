@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>31Uploader (Cloudinary Version)</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  /* --- CSS ไม่มีการเปลี่ยนแปลง --- */
+  :root{--bg-main:#1a202c;--bg-secondary:#2d3748;--bg-tertiary:#4a5568;--border-color:#4a5568;--border-hover:#718096;--text-primary:#e2e8f0;--text-secondary:#cbd5e0;--text-placeholder:#a0aec0;--accent-color:#4299e1;--accent-hover:#2b6cb0;--success-color:#68d391;--error-color:#fc8181;--info-color:#a0aec0;--shadow-color:rgba(0,0,0,0.4)}body{background-color:var(--bg-main);color:var(--text-primary);font-family:sans-serif}#uploaderContainer{font-family:sans-serif;background-color:var(--bg-secondary);color:var(--text-primary);padding:30px;border-radius:12px;max-width:750px;margin:20px auto;box-shadow:0 6px 15px var(--shadow-color);border:1px solid var(--border-color)}.title-container{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--border-color);margin-bottom:25px}#uploaderTitle{font-size:1.8em;font-weight:600;margin:0;padding-bottom:10px}#clearHistoryBtn{background:var(--bg-tertiary);color:var(--text-secondary);border:1px solid var(--border-color);padding:6px 12px;border-radius:6px;cursor:pointer;font-size:14px;transition:background-color .2s,color .2s}#clearHistoryBtn:hover{background:var(--error-color);color:var(--bg-main)}#dropZone{border:3px dashed var(--border-color);border-radius:10px;padding:50px 25px;text-align:center;color:var(--text-placeholder);background-color:var(--bg-main);cursor:pointer;transition:background-color .2s ease,border-color .2s ease;margin-bottom:25px}#dropZone.dragover{background-color:var(--bg-tertiary);border-color:var(--accent-color)}#dropZone p{margin:0;font-size:1.2em;font-weight:500;color:var(--text-secondary)}#dropZone::before{content:'⬆️';font-size:2.5em;display:block;margin-bottom:15px;color:var(--text-placeholder)}#uploadStatus{text-align:center;margin-bottom:20px;font-weight:bold;min-height:1.2em;font-size:1em;transition:color .3s ease;color:var(--info-color)}.date-group details{border:1px solid var(--border-color);border-radius:8px;margin-bottom:15px;background-color:var(--bg-main);overflow:hidden}.date-group summary{padding:12px 15px;font-weight:600;font-size:1.1em;color:var(--text-primary);background-color:var(--bg-tertiary);cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;transition:background-color .2s ease}.date-group summary:hover{background-color:var(--border-hover)}.date-group summary::-webkit-details-marker{display:none}.date-group summary::after{content:'+';font-size:1.4em;font-weight:bold;margin-left:10px;transition:transform .2s ease}.date-group details[open] summary::after{content:'−'}.upload-list-inner{list-style:none;padding:10px;margin:0}.upload-list-inner li{background-color:var(--bg-secondary);border:1px solid var(--border-color);border-radius:6px;margin-bottom:10px;padding:15px;display:flex;align-items:flex-start;gap:20px;box-shadow:0 1px 3px rgba(0,0,0,0.15)}.upload-list-inner li:hover{background-color:var(--bg-tertiary)}.upload-list-inner img.thumbnail{width:90px;height:90px;object-fit:contain;border-radius:5px;flex-shrink:0;background-color:#333;border:1px solid var(--border-color)}.upload-list-inner .details{flex-grow:1;font-size:.95em;overflow-wrap:break-word;word-break:break-all}.upload-list-inner .details p{margin:0 0 8px;line-height:1.5;color:var(--text-secondary)}.upload-list-inner .details p strong{display:inline-block;min-width:60px;color:var(--text-primary);font-weight:600}.upload-list-inner .details input[type=text]{width:calc(100% - 85px);padding:8px 10px;border:1px solid var(--border-color);border-radius:4px;font-size:.9em;margin-right:8px;box-sizing:border-box;background-color:var(--bg-main);color:var(--text-primary)}.upload-list-inner .details button.copy-btn{padding:8px 12px;font-size:.9em;cursor:pointer;border:1px solid var(--accent-color);background-color:var(--accent-color);color:var(--bg-main);border-radius:4px;transition:background-color .2s,border-color .2s;font-weight:600}.upload-list-inner .details button.copy-btn:hover{background-color:var(--accent-hover);border-color:var(--accent-hover)}.upload-list-inner .details button.copy-btn.copied{background-color:var(--success-color);border-color:var(--success-color);color:var(--bg-main)}.upload-list-inner .details button.copy-btn.error{background-color:var(--error-color);border-color:var(--error-color);color:var(--bg-main)}#fileInput{display:none}.status-message{font-weight:bold;margin-top:8px!important}.status-message.success{color:var(--success-color)}.status-message.error{color:var(--error-color)}.status-message.info{color:var(--info-color)}
+</style>
+</head>
+<body>
+
+<div id="uploaderContainer">
+  <div class="title-container">
+    <h1 id="uploaderTitle">31Uploader (Cloudinary)</h1>
+    <button id="clearHistoryBtn" title="ลบประวัติการอัปโหลดทั้งหมด">ล้างประวัติ</button>
+  </div>
+
+  <div id="dropZone">
+    <p>ลากรูปมาวางที่นี่ หรือคลิกเพื่อเลือกไฟล์</p>
+  </div>
+  <input type="file" id="fileInput" accept="image/png, image/jpeg, image/gif, image/webp" multiple>
+  <div id="uploadStatus"></div>
+
+  <div id="persistentListContainer"></div>
+</div>
+
+<script>
+  // --- CONFIGURATION ---
+  const CLOUDINARY_CLOUD_NAME = "docoo51xb"; 
+  const CLOUDINARY_UPLOAD_PRESET = "31uploader_preset";
+  // --- END CONFIGURATION ---
+
+  const LOCAL_STORAGE_KEY = 'cloudinaryUploadHistory_31Uploader';
+
+  const dropZone = document.getElementById('dropZone');
+  const fileInput = document.getElementById('fileInput');
+  const uploadStatus = document.getElementById('uploadStatus');
+  const persistentListContainer = document.getElementById('persistentListContainer');
+  const clearHistoryBtn = document.getElementById('clearHistoryBtn'); 
+
+  document.addEventListener('DOMContentLoaded', loadAndRenderUploads);
+  
+  dropZone.addEventListener('click', () => fileInput.click());
+  window.addEventListener('dragover', (e) => e.preventDefault());
+  window.addEventListener('drop', (e) => e.preventDefault());
+  dropZone.addEventListener('dragenter', (e) => { e.preventDefault(); dropZone.classList.add('dragover'); });
+  dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('dragover'); });
+  dropZone.addEventListener('dragleave', (e) => { e.preventDefault(); dropZone.classList.remove('dragover'); });
+  dropZone.addEventListener('drop', (e) => {
+    e.preventDefault();
+    dropZone.classList.remove('dragover');
+    if (e.dataTransfer.files.length > 0) handleFiles(e.dataTransfer.files);
+  });
+  fileInput.addEventListener('change', (e) => {
+    if (e.target.files.length > 0) handleFiles(e.target.files);
+    e.target.value = null;
+  });
+  
+  clearHistoryBtn.addEventListener('click', () => {
+    if (confirm('คุณต้องการล้างประวัติการอัปโหลดทั้งหมดใช่หรือไม่?')) {
+        try {
+            localStorage.removeItem(LOCAL_STORAGE_KEY);
+            alert('ล้างประวัติเรียบร้อยแล้ว');
+            location.reload(); 
+        } catch (e) {
+            alert('เกิดข้อผิดพลาดในการล้างประวัติ');
+            console.error("Error clearing localStorage:", e);
+        }
+    }
+  });
+
+  // --- *** IMPROVED FUNCTION *** ---
+  function loadUploadHistory() {
+    const storedData = localStorage.getItem(LOCAL_STORAGE_KEY);
+    if (!storedData) {
+        return []; // ถ้าไม่มีข้อมูล ก็ส่งค่าว่างกลับไปเลย
+    }
+    try {
+        // ลองแปลงข้อมูล JSON, ถ้าสำเร็จก็ส่งกลับไป
+        return JSON.parse(storedData);
+    } catch (e) {
+        // ถ้าแปลงข้อมูลแล้ว Error (ข้อมูลเสียหาย)
+        console.error("localStorage data is corrupted, clearing it now.", e);
+        localStorage.removeItem(LOCAL_STORAGE_KEY); // ลบข้อมูลที่เสียหายทิ้ง
+        return []; // ส่งค่าว่างกลับไปเพื่อให้โปรแกรมทำงานต่อได้
+    }
+  }
+
+  // --- โค้ดส่วนที่เหลือเหมือนเดิม ---
+  function saveUploadHistory(history){try{localStorage.setItem(LOCAL_STORAGE_KEY,JSON.stringify(history))}catch(e){console.error("Error saving upload history to localStorage:",e),e.name==="QuotaExceededError"?setMainStatus("ข้อผิดพลาด: พื้นที่จัดเก็บข้อมูลเต็ม","error"):setMainStatus("ข้อผิดพลาดในการบันทึกประวัติ","error")}}
+  function addUploadToHistory(uploadData){const history=loadUploadHistory();history.unshift(uploadData),saveUploadHistory(history)}
+  function loadAndRenderUploads(){const history=loadUploadHistory();renderUploadList(history)}
+  function renderUploadList(uploads){persistentListContainer.innerHTML="",uploads&&0!==uploads.length&&(uploads.sort((a,b)=>b.timestamp-a.timestamp),Object.keys(uploads.reduce((acc,upload)=>{const dateStr=(new Date(upload.timestamp)).toLocaleDateString("sv-SE");return acc[dateStr]||(acc[dateStr]=[]),acc[dateStr].push(upload),acc},{})).sort((a,b)=>new Date(b)-new Date(a)).forEach((dateStr,index)=>{const dateUploads=groupedUploads[dateStr],dateGroup=createDateGroupElement(dateStr,dateUploads,0===index);persistentListContainer.appendChild(dateGroup)}))}
+  function createDateGroupElement(dateStr,uploadsForDate,isOpenByDefault=!1){const details=document.createElement("details");details.classList.add("date-group"),isOpenByDefault&&(details.open=!0);const summary=document.createElement("summary"),displayDate=(new Date(dateStr)).toLocaleDateString("th-TH",{year:"numeric",month:"long",day:"numeric"});summary.textContent=`${displayDate} (${uploadsForDate.length} รายการ)`;const ul=document.createElement("ul");return ul.classList.add("upload-list-inner"),uploadsForDate.forEach(upload=>ul.appendChild(createUploadListItem(upload))),details.appendChild(summary),details.appendChild(ul),details}
+  function createUploadListItem(uploadData){const li=document.createElement("li");li.dataset.publicId=uploadData.public_id;const img=document.createElement("img");img.classList.add("thumbnail"),img.src=uploadData.secure_url,img.alt=`Thumbnail for ${uploadData.filename}`,img.loading="lazy";const detailsDiv=document.createElement("div");return detailsDiv.classList.add("details"),detailsDiv.innerHTML=`\n      <p><strong>ไฟล์:</strong> ${uploadData.filename||"N/A"}</p>\n      <p><strong>ขนาด:</strong> ${uploadData.width&&uploadData.height?`${uploadData.width}x${uploadData.height}px`:"N/A"}</p>\n      <p><strong>Size:</strong> ${uploadData.bytes?formatBytes(uploadData.bytes):"N/A"}</p>\n      <p class="status-message success">อัปโหลดเมื่อ: ${(new Date(uploadData.timestamp)).toLocaleTimeString("th-TH")}</p>\n      <div class="link-container">\n        <input type="text" value="${uploadData.secure_url}" readonly title="Cloudinary Secure URL">\n        <button class="copy-btn" data-link="${uploadData.secure_url}" title="คัดลอกลิงก์">คัดลอก</button>\n      </div>\n    `,li.appendChild(img),li.appendChild(detailsDiv),detailsDiv.querySelector(".copy-btn")?.addEventListener("click",handleCopyClick),li}
+  function handleFiles(files){CLOUDINARY_CLOUD_NAME&&CLOUDINARY_UPLOAD_PRESET&&"YOUR_CLOUD_NAME_HERE"!==CLOUDINARY_CLOUD_NAME?(setMainStatus(""),Array.from(files).forEach(file=>{file.type.match(/image\/(png|jpeg|gif|webp)/)?(setMainStatus(`กำลังเตรียมอัปโหลด ${file.name}...`,"info"),performUpload(file)):setMainStatus(`ไฟล์ '${file.name}' ไม่ใช่ประเภทรูปภาพที่รองรับ`,"error")})):setMainStatus("ข้อผิดพลาด: กรุณาตั้งค่า Cloudinary Cloud Name และ Upload Preset ในโค้ดก่อน","error")}
+  function performUpload(file){const url=`https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload`,formData=new FormData;formData.append("file",file),formData.append("upload_preset",CLOUDINARY_UPLOAD_PRESET),setMainStatus(`กำลังอัปโหลด ${file.name}... (${formatBytes(file.size)})`,"info"),fetch(url,{method:"POST",body:formData}).then(response=>response.json()).then(data=>{if(data.error)throw new Error(data.error.message||"Unknown Cloudinary error");console.log("Cloudinary upload success:",data),setMainStatus(`อัปโหลด ${file.name} สำเร็จ!`,"success");const uploadData={public_id:data.public_id,secure_url:data.secure_url,filename:file.name,bytes:data.bytes,width:data.width,height:data.height,timestamp:(new Date(data.created_at)).getTime()};addUploadToHistory(uploadData),loadAndRenderUploads()}).catch(error=>{console.error("Upload Error:",error),setMainStatus(`อัปโหลด ${file.name} ล้มเหลว: ${error.message}`,"error")}).finally(()=>{setTimeout(()=>{uploadStatus.textContent.includes(file.name)&&setMainStatus("")},4e3)})}
+  function handleCopyClick(event){const button=event.target,link=button.dataset.link;navigator.clipboard.writeText(link).then(()=>{const originalText=button.textContent;button.textContent="คัดลอกแล้ว!",button.classList.add("copied"),setTimeout(()=>{button.textContent=originalText,button.classList.remove("copied")},2e3)}).catch(err=>{console.error("ไม่สามารถคัดลอกลิงก์ได้:",err),button.textContent="ผิดพลาด!",button.classList.add("error"),setTimeout(()=>{button.textContent=originalText,button.classList.remove("error")},2500)})}
+  function formatBytes(bytes,decimals=2){if(!bytes||0===bytes)return"0 Bytes";const k=1024,dm=0>decimals?0:decimals,sizes=["Bytes","KB","MB","GB","TB"],i=Math.max(0,Math.floor(Math.log(bytes)/Math.log(k))),sizeIndex=Math.min(i,sizes.length-1);return parseFloat((bytes/Math.pow(k,sizeIndex)).toFixed(dm))+" "+sizes[sizeIndex]}
+  function setMainStatus(message,statusType="info"){uploadStatus.textContent=message,uploadStatus.className="status-message",statusType&&uploadStatus.classList.add(statusType)}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,381 @@
+{
+  "Anuphan.ttf": {
+    "family_name": "Anuphan",
+    "subfamily": "Regular",
+    "full_name": "Anuphan Regular",
+    "postscript_name": "Anuphan-Regular",
+    "file_name": "Anuphan.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "Bai Jamjuree Light.ttf": {
+    "family_name": "Bai Jamjuree Light",
+    "subfamily": "Regular",
+    "full_name": "Bai Jamjuree Light",
+    "postscript_name": "BaiJamjuree-Light",
+    "file_name": "Bai Jamjuree Light.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "Bai Jamjuree SemiBold.ttf": {
+    "family_name": "Bai Jamjuree SemiBold",
+    "subfamily": "Regular",
+    "full_name": "Bai Jamjuree SemiBold",
+    "postscript_name": "BaiJamjuree-SemiBold",
+    "file_name": "Bai Jamjuree SemiBold.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "Bai Jamjuree.ttf": {
+    "family_name": "Bai Jamjuree",
+    "subfamily": "Regular",
+    "full_name": "Bai Jamjuree Regular",
+    "postscript_name": "BaiJamjuree-Regular",
+    "file_name": "Bai Jamjuree.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "Chonburi.ttf": {
+    "family_name": "Chonburi",
+    "subfamily": "Regular",
+    "full_name": "Chonburi",
+    "postscript_name": "Chonburi-Regular",
+    "file_name": "Chonburi.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "FC Minimal.otf": {
+    "family_name": "FC Minimal",
+    "subfamily": "ExtraLight",
+    "full_name": "FC Minimal ExtraLight",
+    "postscript_name": "FCMinimalExtraLight",
+    "file_name": "FC Minimal.otf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "FC Minimal.ttf": {
+    "family_name": "FC Minimal",
+    "subfamily": "Medium",
+    "full_name": "FC Minimal Medium",
+    "postscript_name": "FCMinimalMedium",
+    "file_name": "FC Minimal.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "IBM Plex Sans Thai Medium.ttf": {
+    "family_name": "IBM Plex Sans Thai Medium",
+    "subfamily": "Regular",
+    "full_name": "IBM Plex Sans Thai Medium",
+    "postscript_name": "IBMPlexSansThai-Medium",
+    "file_name": "IBM Plex Sans Thai Medium.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "JetBrains Mono NL Light.ttf": {
+    "family_name": "JetBrains Mono NL Light",
+    "subfamily": "Regular",
+    "full_name": "JetBrains Mono NL Light",
+    "postscript_name": "JetBrainsMonoNL-Light",
+    "file_name": "JetBrains Mono NL Light.ttf",
+    "supported_scripts": [
+      "Latin"
+    ]
+  },
+  "JetBrains Mono NL.ttf": {
+    "family_name": "JetBrains Mono NL",
+    "subfamily": "Bold",
+    "full_name": "JetBrains Mono NL Bold",
+    "postscript_name": "JetBrainsMonoNL-Bold",
+    "file_name": "JetBrains Mono NL.ttf",
+    "supported_scripts": [
+      "Latin"
+    ]
+  },
+  "K2D Light.ttf": {
+    "family_name": "K2D Light",
+    "subfamily": "Regular",
+    "full_name": "K2D Light",
+    "postscript_name": "K2D-Light",
+    "file_name": "K2D Light.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "K2D Medium.ttf": {
+    "family_name": "K2D Medium",
+    "subfamily": "Regular",
+    "full_name": "K2D Medium",
+    "postscript_name": "K2D-Medium",
+    "file_name": "K2D Medium.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "K2D.ttf": {
+    "family_name": "K2D",
+    "subfamily": "Regular",
+    "full_name": "K2D Regular",
+    "postscript_name": "K2D-Regular",
+    "file_name": "K2D.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "Kanit Light.ttf": {
+    "family_name": "Kanit Light",
+    "subfamily": "Regular",
+    "full_name": "Kanit Light",
+    "postscript_name": "Kanit-Light",
+    "file_name": "Kanit Light.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "Mali Medium.ttf": {
+    "family_name": "Mali Medium",
+    "subfamily": "Regular",
+    "full_name": "Mali Medium",
+    "postscript_name": "Mali-Medium",
+    "file_name": "Mali Medium.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "MaliThin.ttf": {
+    "family_name": "MaliThin",
+    "subfamily": "Regular",
+    "full_name": "MaliThin",
+    "postscript_name": "MaliThin",
+    "file_name": "MaliThin.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "Mitr Light.ttf": {
+    "family_name": "Mitr Light",
+    "subfamily": "Regular",
+    "full_name": "Mitr Light",
+    "postscript_name": "Mitr-Light",
+    "file_name": "Mitr Light.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "MN Chim Chum.ttf": {
+    "family_name": "MN Chim Chum",
+    "subfamily": "Bold",
+    "full_name": "MN Chim Chum Bold",
+    "postscript_name": "MNChimChum-Bold",
+    "file_name": "MN Chim Chum.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "Nasalization Rg.otf": {
+    "family_name": "Nasalization Rg",
+    "subfamily": "Regular",
+    "full_name": "NasalizationRg-Regular",
+    "postscript_name": "NasalizationRg-Regular",
+    "file_name": "Nasalization Rg.otf",
+    "supported_scripts": [
+      "Latin"
+    ]
+  },
+  "Noto Sans Thai Looped Light.ttf": {
+    "family_name": "Noto Sans Thai Looped Light",
+    "subfamily": "Regular",
+    "full_name": "Noto Sans Thai Looped Light",
+    "postscript_name": "NotoSansThaiLooped-Light",
+    "file_name": "Noto Sans Thai Looped Light.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "Noto Sans Thai Looped.ttf": {
+    "family_name": "Noto Sans Thai Looped",
+    "subfamily": "Regular",
+    "full_name": "Noto Sans Thai Looped Regular",
+    "postscript_name": "NotoSansThaiLooped-Regular",
+    "file_name": "Noto Sans Thai Looped.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "PK Nakhon Sawan Regular Demo.ttf": {
+    "family_name": "PK Nakhon Sawan Regular Demo",
+    "subfamily": "Regular",
+    "full_name": "PK Nakhon Sawan Regular Demo",
+    "postscript_name": "PK-Nakhon-Sawan-Regular-Demo",
+    "file_name": "PK Nakhon Sawan Regular Demo.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "SalmonDemo.ttf": {
+    "family_name": "SalmonDemo",
+    "subfamily": "Regular",
+    "full_name": "SalmonDemo",
+    "postscript_name": "SalmonDemo",
+    "file_name": "SalmonDemo.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "Sarabun.ttf": {
+    "family_name": "Sarabun",
+    "subfamily": "Regular",
+    "full_name": "Sarabun Regular",
+    "postscript_name": "Sarabun-Regular",
+    "file_name": "Sarabun.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "Segoe UI Light.ttf": {
+    "family_name": "Segoe UI Light",
+    "subfamily": "Regular",
+    "full_name": "Segoe UI Light",
+    "postscript_name": "SegoeUI-Light",
+    "file_name": "Segoe UI Light.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "TA 16 BIT.otf": {
+    "family_name": "TA 16 BIT",
+    "subfamily": "Regular",
+    "full_name": "TA16BIT-Regular",
+    "postscript_name": "TA16BIT-Regular",
+    "file_name": "TA 16 BIT.otf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "Taviraj Light.ttf": {
+    "family_name": "Taviraj Light",
+    "subfamily": "Regular",
+    "full_name": "Taviraj Light",
+    "postscript_name": "Taviraj-Light",
+    "file_name": "Taviraj Light.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "FC SaveSpace.otf": {
+    "family_name": "FC SaveSpace",
+    "subfamily": "Italic",
+    "full_name": "FC SaveSpace Italic",
+    "postscript_name": "FCSaveSpaceItalic",
+    "file_name": "FC SaveSpace Italic ver 1.01.otf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "FC SaveSpace.ttf": {
+    "family_name": "FC SaveSpace",
+    "subfamily": "Regular",
+    "full_name": "FC SaveSpace Regular",
+    "postscript_name": "FCSaveSpaceRegular",
+    "file_name": "FC SaveSpace Regular ver 1.01.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "FreesiaUPC.ttf": {
+    "family_name": "FreesiaUPC",
+    "subfamily": "Normal",
+    "full_name": "FreesiaUPC",
+    "postscript_name": "FreesiaUPC",
+    "file_name": "upcfl.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "FC SaveSpace_1.ttf": {
+    "family_name": "FC SaveSpace",
+    "subfamily": "Regular",
+    "full_name": "FC SaveSpace Regular",
+    "postscript_name": "FCSaveSpaceRegular",
+    "file_name": "FC SaveSpace.ttf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  },
+  "JetBrains Mono NL Light_1.ttf": {
+    "family_name": "JetBrains Mono NL Light",
+    "subfamily": "Regular",
+    "full_name": "JetBrains Mono NL Light",
+    "postscript_name": "JetBrainsMonoNL-Light",
+    "file_name": "JetBrains Mono NL Light.ttf",
+    "supported_scripts": [
+      "Latin"
+    ]
+  },
+  "Arial Narrow.TTF": {
+    "family_name": "Arial Narrow",
+    "subfamily": "Italique",
+    "full_name": "Arial Narrow Italique",
+    "postscript_name": "ArialNarrow-Italic",
+    "file_name": "Arial Narrow.TTF",
+    "supported_scripts": [
+      "Latin"
+    ]
+  },
+  "Arial.ttf": {
+    "family_name": "Arial",
+    "subfamily": "Gras",
+    "full_name": "Arial Gras",
+    "postscript_name": "Arial-BoldMT",
+    "file_name": "arialbd.ttf",
+    "supported_scripts": [
+      "Latin"
+    ]
+  },
+  "FC Minimal_1.otf": {
+    "family_name": "FC Minimal",
+    "subfamily": "Thin",
+    "full_name": "FC Minimal Thin",
+    "postscript_name": "FCMinimalThin",
+    "file_name": "FC Minimal.otf",
+    "supported_scripts": [
+      "Thai",
+      "Latin"
+    ]
+  }
+}

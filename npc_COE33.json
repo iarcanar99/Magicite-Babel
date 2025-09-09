@@ -1,0 +1,143 @@
+{
+    "main_characters": [
+        {
+            "firstName": "Gustave",
+            "lastName": "",
+            "gender": "Male",
+            "role": "Engineer, Expedition Leader",
+            "relationship": "Ally, Party Member"
+        },
+        {
+            "firstName": "Maelle",
+            "lastName": "",
+            "gender": "Female",
+            "role": "Expeditioner, Rapier Wielder",
+            "relationship": "Ally, Party Member"
+        },
+        {
+            "firstName": "Lune",
+            "lastName": "",
+            "gender": "Female",
+            "role": "Scholar, Elemental Mage",
+            "relationship": "Ally, Party Member"
+        },
+        {
+            "firstName": "Sciel",
+            "lastName": "",
+            "gender": "Female",
+            "role": "Warrior, Scythe Wielder",
+            "relationship": "Ally, Party Member"
+        },
+        {
+            "firstName": "Monoco",
+            "lastName": "",
+            "gender": "Male",
+            "role": "Gestral Shapeshifter",
+            "relationship": "Ally, Party Member"
+        },
+        {
+            "firstName": "Esquie",
+            "lastName": "",
+            "gender": "Male",
+            "role": "Mythical Being, Travel Support",
+            "relationship": "Ally, Companion"
+        },
+        {
+            "firstName": "Renoir",
+            "lastName": "",
+            "gender": "Male",
+            "role": "Mysterious Figure",
+            "relationship": "Complex, Potential Antagonist"
+        },
+        {
+            "firstName": "Verso",
+            "lastName": "",
+            "gender": "Male",
+            "role": "Experienced Fighter, Outsider (Expedition Zero Member)",
+            "relationship": "Ally, Party Member"
+        }
+    ],
+    "npcs": [
+        {
+            "name": "The Curator",
+            "role": "Mysterious Figure, Upgrade Vendor",
+            "description": "Offers weapon and consumable upgrades at the camp. His true identity is a significant secret."
+        },
+        {
+            "name": "Sastro",
+            "role": "Quest Giver, Gestral Expert",
+            "description": "Asks players to find Lost Gestrals in exchange for rewards."
+        },
+        {
+            "name": "The Paintress",
+            "role": "Primary Antagonist, Entity of Gommage",
+            "description": "The being responsible for the Gommage, residing on a distant monolith. Target of Expedition 33."
+        },
+        {
+            "name": "Florrie",
+            "role": "Esquie's Pet",
+            "description": "A creature belonging to Esquie that players help find."
+        },
+        {
+            "name": "Simon",
+            "role": "Member of Expedition Zero",
+            "description": "A key figure in Expedition Zero's history, connected to P. Verso and P. Clea."
+        },
+        {
+            "name": "Julie",
+            "role": "Member of Expedition Zero",
+            "description": "A member of Expedition Zero whose journal entries might be found."
+        },
+        {
+            "name": "Painted Clea",
+            "role": "Canvas Entity, Nevron Source",
+            "description": "A painted version of Clea within the Canvas, involved in the creation of Nevrons."
+        }
+    ],
+    "lore": {
+        "Gommage": "โกมมาจ: พิธีกรรมประจำปีที่ Paintress วาดหมายเลข ซึ่งจะทำให้ผู้คนในวัยนั้นถูกลบเลือนหายไป",
+        "Paintress": "เพนเทรส: ตัวตนลึกลับ ผู้วาดหมายเลขแห่งความตายในพิธี Gommage เป็นเป้าหมายหลักของคณะสำรวจ",
+        "Lumière": "ลูมิแยร์: เมืองหลักของมนุษยชาติ เป็นศูนย์กลางที่จัดตั้งคณะสำรวจเพื่อต่อต้าน Paintress",
+        "Expedition 33": "เอ็กซ์เพดิชั่น 33: คณะสำรวจปัจจุบัน (ครั้งที่ 33) มีภารกิจหนึ่งปีเพื่อหยุดยั้ง Paintress ก่อนสมาชิกจะอายุครบ 33 ปี",
+        "Expeditions": "เอ็กซ์เพดิชั่นส์: คำเรียกรวมๆ ของคณะสำรวจที่ถูกส่งออกจาก Lumière เพื่อเผชิญหน้าและหยุดยั้ง Paintress",
+        "Expedition Flag": "ธงคณะสำรวจ: ธงที่ถูกทิ้งไว้โดยคณะสำรวจในอดีต ทำหน้าที่เป็นจุดพักฟื้นและบันทึกการเดินทาง",
+        "Expedition Journals": "บันทึกคณะสำรวจ: บันทึกต่างๆ ที่สามารถค้นพบได้จากสมาชิกคณะสำรวจในอดีต บอกเล่าเรื่องราวและชะตากรรมของพวกเขา",
+        "Gestral": "เจสทรัล: เผ่าพันธุ์สิ่งมีชีวิต (เช่น Monoco) ที่ไม่ได้รับผลกระทบจาก Gommage มีความสามารถในการต่อสู้ และบางตนพูดภาษามนุษย์ได้",
+        "Nevron": "เนฟรอน: มอนสเตอร์ศัตรูหลักที่พบเจอในการสำรวจทวีป",
+        "The Continent": "เดอะ คอนทิเนนท์: ดินแดนกว้างใหญ่นอก Lumière ที่คณะสำรวจต้องเดินทางผ่านเพื่อไปยัง Paintress",
+        "Monolith": "โมโนลิธ: ศิลาจารึกขนาดใหญ่ที่ Paintress ใช้วาดหมายเลขแห่ง Gommage",
+        "Chroma Catalysts": "โครม่า คาตาลิสต์: วัสดุที่ NPC The Curator ใช้สำหรับอัปเกรดอาวุธและเพิ่มประสิทธิภาพไอเทม",
+        "The Fracture": "เดอะ แฟรคเจอร์: เหตุการณ์ภัยพิบัติในอดีต (67 ปีก่อน Expedition 33) ที่ทำให้โลกแตกสลาย และเป็นจุดเริ่มต้นของภารกิจ Expedition Zero",
+        "Expedition Zero": "เอ็กซ์เพดิชั่น ซีโร่: คณะสำรวจชุดแรกสุด มีภารกิจเริ่มต้นเพื่อค้นหาผู้รอดชีวิต (Aline) หลังเหตุการณ์ The Fracture",
+        "Canvas": "แคนวาส: คำที่ใช้อธิบายธรรมชาติที่แท้จริงของโลกในเกม ซึ่งเป็นโลกที่ถูกวาดขึ้น (เป็นข้อมูลเชิงลึก)",
+        "Stains": "สเตนส์: หน่วยพลังงานธาตุ (น้ำแข็ง, ไฟ, สายฟ้า, ดิน, แสง) ที่ Lune ใช้ในการเสริมความสามารถสกิล",
+        "Bestial Wheel": "เบสเทียล วีล: กลไกสกิลของ Monoco ที่ให้เขาสวมหน้ากากเพื่ออัปเกรดความสามารถต่างๆ",
+        "Foretell": "ฟอร์เทล: ความสามารถหลักของ Sciel ในการทำเครื่องหมายศัตรูเพื่อสร้าง Sun Charges หรือ Moon Charges",
+        "Perfection": "เพอร์เฟคชั่น: ระบบการต่อสู้ของ Verso ที่เพิ่มระดับความสามารถตามการโจมตี, ปัดป้อง, หรือหลบหลีกอย่างสมบูรณ์แบบ",
+        "Belle Époque": "แบล เอป็อก: ยุคสมัยที่เป็นแรงบันดาลใจให้กับงานศิลป์ สถาปัตยกรรม และบรรยากาศโดยรวมของเกม",
+        "The Curator": "เดอะ คูเรเตอร์",
+        "Sastro": "ซาสโตร",
+        "Mathieu 3-5": "มาติเยอ 3-5: ชื่อผู้เขียนและหมายเลขบันทึกจาก Expedition 35 ที่ผู้เล่นอาจพบเจอ",
+        "Florrie": "ฟลอร์รี่",
+        "Simon": "ไซมอน",
+        "Julie": "จูลี่",
+        "Painted Clea": "เพนเทด คลีอา",
+        "pictos": "'พิคโตส' : อาวุธหลัก"
+    },
+    "character_roles": {
+        "Gustave": "วิศวกรผู้ทุ่มเท แบกรับภาระผู้นำ น้ำเสียงหนักแน่นเด็ดเดี่ยว สุภาพ, ในบทสนทนาสบายๆ ให้ใช้สรรพนามเรียกคนอื่นว่า 'เธอ'",
+        "Maelle": "หญิงสาวขี้อาย ไม่ไว้ใจคน เก็บตัว แต่โหยหาการเชื่อมต่อและเส้นทางของตนเอง น้ำเสียงอาจลังเลในช่วงแรก แต่จะหนักแน่นขึ้นเมื่อเวลาผ่านไป",
+        "Lune": "นักปราชญ์ผู้เปี่ยมด้วยความมุ่งมั่นและสติปัญญาเฉียบแหลม ขับเคลื่อนด้วยงานวิจัยของพ่อแม่และความกระหายในความจริง น้ำเสียงชัดถ้อยชัดคำ พูดด้วยความมั่นใจ",
+        "Sciel": "นักรบผู้ดูอบอุ่น เปิดเผย และเหมือนจะไร้กังวล แต่ซ่อนอดีตอันเจ็บปวดไว้ น้ำเสียงร่าเริง บางครั้งมีทีเล่นทีจริง แต่แฝงความสงบนิ่ง",
+        "Monoco": "เจสทรัลผู้มีท่าทีแบบนักวิชาการ แต่ซ่อนความกระหายเลือดในการต่อสู้ไว้ น้ำเสียงอาจสุภาพ แต่แฝงความกระตือรือร้นเกือบจะดิบเถื่อนเมื่อพูดถึงการต่อสู้",
+        "Esquie": "ตัวตนโบราณ ทรงพลัง และดูแปลกตา แต่ขี้เกียจอย่างเห็นได้ชัด น้ำเสียงแฝงภูมิปัญญาแห่งกาลเวลา อาจพูดเป็นปริศนาหรือด้วยท่าทีไม่ใส่ใจอย่างขี้เล่น",
+        "Renoir": "ผู้มุ่งมั่นอย่างไม่ลดละและเป็นปริศนา คำพูดมักจะปิดบัง ซ่อนความเจ็บปวดอย่างลึกซึ้งและความมุ่งมั่นอันโหดเหี้ยม",
+        "Verso": "คนนอกผู้ช่างสังเกตและนักสู้ผู้มากประสบการณ์ (จากเอ็กซ์เพดิชั่น ซีโร่) ช่วงแรกอาจพูดน้อย น้ำเสียงสุขุมมั่นคง เปิดเผยมากขึ้นเมื่อได้รับความไว้วางใจ"
+    },
+    "word_fixes": {},
+    "_game_info": {
+        "name": "Clair Obscur: Expedition 33",
+        "code": "COE33",
+        "description": "ข้อมูลตัวละครและศัพท์เฉพาะจากเกม Clair Obscur: Expedition 33"
+    }
+}

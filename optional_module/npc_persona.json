@@ -1,0 +1,80 @@
+{
+    "main_characters": [
+        {
+            "firstName": "Joker",
+            "lastName": "",
+            "gender": "Male",
+            "role": "Phantom Thief Leader",
+            "relationship": "Protagonist"
+        },
+        {
+            "firstName": "Ryuji",
+            "lastName": "Sakamoto", 
+            "gender": "Male",
+            "role": "Phantom Thief",
+            "relationship": "Best Friend"
+        },
+        {
+            "firstName": "Ann",
+            "lastName": "Takamaki",
+            "gender": "Female", 
+            "role": "Phantom Thief",
+            "relationship": "Team Member"
+        },
+        {
+            "firstName": "Morgana",
+            "lastName": "",
+            "gender": "Male",
+            "role": "Phantom Thief Guide",
+            "relationship": "Partner"
+        }
+    ],
+    "npcs": [
+        {
+            "name": "Igor",
+            "role": "Velvet Room Master",
+            "description": "ผู้ดูแลห้องกำมะหยี่ ให้คำแนะนำเรื่อง Persona"
+        },
+        {
+            "name": "Sojiro Sakura", 
+            "role": "Cafe Owner",
+            "description": "เจ้าของร้านกาแฟ ผู้อุปการะ Joker"
+        },
+        {
+            "name": "Caroline and Justine",
+            "role": "Velvet Room Attendants", 
+            "description": "ผู้ช่วยใน Velvet Room แฝดสองคน"
+        },
+        {
+            "name": "Takuto Maruki",
+            "role": "Counselor",
+            "description": "นักจิตวิทยาโรงเรียน"
+        }
+    ],
+    "lore": {
+        "Metaverse": "โลกคู่ขนานที่สะท้อนจิตใจมนุษย์",
+        "Palace": "พระราชวังที่เกิดจากความปรารถนาที่บิดเบี้ยว",
+        "Phantom Thieves": "กลุ่มโจรผู้ขโมยหัวใจคนชั่ว",
+        "Persona": "ร่างอวตารที่เกิดจากจิตใจ",
+        "Velvet Room": "ห้องลึกลับสำหรับการผสาน Persona"
+    },
+    "character_roles": {
+        "Joker": "เงียบขรึม เป็นผู้นำ พูดจาสั้นๆ กระชับ",
+        "Ryuji": "ร่าเริง พูดจาตรงไปตรงมา ใช้คำพูดแบบวัยรุ่น",
+        "Ann": "ใจดี เป็นกันเอง พูดจาสุภาพแต่ไม่เป็นทางการ",
+        "Morgana": "หยิ่ง มั่นใจ พูดจาเหมือนผู้รู้ทุกเรื่อง",
+        "Igor": "ลึกลับ พูดจาเป็นปริศนา ใช้คำสุภาพมาก",
+        "Sojiro": "พ่อบ้าน ใจดี พูดจาเหมือนผู้ใหญ่ที่เป็นห่วง"
+    },
+    "word_fixes": {
+        "Persona": "เพอร์โซนา",
+        "Palace": "พาเลซ", 
+        "Metaverse": "เมตาเวิร์ส",
+        "Shadow": "เงา"
+    },
+    "_game_info": {
+        "name": "Persona 5",
+        "code": "persona",
+        "description": "JRPG สุดมันส์เรื่องโจรผู้ขโมยหัวใจ"
+    }
+}

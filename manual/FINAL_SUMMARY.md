@@ -110,6 +110,66 @@ cp translator_gemini_before_lang_patch.py translator_gemini.py
 ### **Complete System Restore**:
 All backup files preserved with timestamps and clear naming convention.
 
+## 📦 **Git Repository Management v9.5**
+
+### **🚀 Production Release Protocol**:
+```bash
+# 1. Repository Setup (COMPLETED)
+git init
+git add .
+git commit -m "🎉 Initial release: MBB v9.5 Complete Enhanced Edition"
+git branch -M main
+git remote add origin https://github.com/iarcanar99/Magicite-Babel.git
+git push -u origin main
+
+# 2. Release Tag Creation (COMPLETED)
+git tag -a v9.5 -m "MBB v9.5 - Complete Enhanced Edition"
+git push origin v9.5
+
+# 3. Documentation Update (COMPLETED)
+git add README.md
+git commit -m "📝 Update README.md to match website tone and style"
+git push origin main
+```
+
+### **🛡️ Version Recovery Protocol**:
+```bash
+# EMERGENCY: Revert to v9.5 stable release
+git reset --hard v9.5
+git push --force-with-lease origin main
+
+# SELECTIVE: Cherry-pick specific commits
+git log --oneline              # Find commit hash
+git cherry-pick [commit-hash]  # Apply specific fix
+git push origin main
+
+# BACKUP: Create recovery branch before major changes
+git checkout -b backup-v9.5-[date]
+git push -u origin backup-v9.5-[date]
+```
+
+### **📋 Git Commit History v9.5**:
+```
+1065a03 - 📝 Update README.md to match website tone and style
+f9df783 - 🎉 Initial release: MBB v9.5 Complete Enhanced Edition (tag: v9.5)
+```
+
+### **🔒 Safe Development Protocol**:
+```bash
+# Before making changes
+git status                     # Check current state
+git add -A && git commit -m "💾 Backup before [change description]"
+git push origin main          # Ensure remote backup
+
+# After testing changes
+git add -A && git commit -m "✨ [feature description]"
+git push origin main
+
+# For major updates
+git tag -a v9.6 -m "Version 9.6 - [feature summary]"
+git push origin v9.6
+```
+
 ---
 
 ## 🧪 **Testing & Validation**

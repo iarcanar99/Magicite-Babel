@@ -1,0 +1,80 @@
+{
+    "main_characters": [
+        {
+            "firstName": "The Handler",
+            "lastName": "",
+            "gender": "Female", 
+            "role": "Research Commission Partner",
+            "relationship": "Partner"
+        },
+        {
+            "firstName": "Admiral",
+            "lastName": "",
+            "gender": "Male",
+            "role": "Fleet Commander",
+            "relationship": "Superior"
+        },
+        {
+            "firstName": "Serious Handler",
+            "lastName": "",
+            "gender": "Female",
+            "role": "Field Team Leader", 
+            "relationship": "Colleague"
+        },
+        {
+            "firstName": "Ace Cadet",
+            "lastName": "",
+            "gender": "Male",
+            "role": "Enthusiastic Hunter",
+            "relationship": "Fellow Hunter"
+        }
+    ],
+    "npcs": [
+        {
+            "name": "Smithy",
+            "role": "Weapons Crafter",
+            "description": "ช่างตีเหล็กผู้สร้างอาวุธและเกราะ"
+        },
+        {
+            "name": "Provisions Manager",
+            "role": "Supply Manager", 
+            "description": "ผู้จัดการวัสดุและอุปกรณ์"
+        },
+        {
+            "name": "Meowscular Chef",
+            "role": "Palico Chef",
+            "description": "เชฟแมวผู้เชี่ยวชาญการทำอาหาร"
+        },
+        {
+            "name": "Resource Center",
+            "role": "Quest Giver",
+            "description": "ผู้ให้เควสต์และจัดการภารกิจ"
+        }
+    ],
+    "lore": {
+        "New World": "ทวีปใหม่ที่เต็มไปด้วยมอนสเตอร์ขนาดใหญ่",
+        "Elder Dragons": "มังกรโบราณผู้มีพลังมหาศาล",
+        "Research Commission": "องค์กรสำรวจโลกใหม่",
+        "Palico": "แมวคู่หูของนักล่า",
+        "Ancient Forest": "ป่าโบราณที่เป็นแหล่งที่อยู่ของมอนสเตอร์มากมาย"
+    },
+    "character_roles": {
+        "The Handler": "กระตือรือร้น ร่าเริง พูดจาเป็นกันเอง มักเรียก 'คุณ'",
+        "Admiral": "เป็นผู้นำ มั่นคง พูดจาเป็นทางการแต่อบอุ่น",
+        "Serious Handler": "จริงจัง มืออาชีพ พูดจาตรงไปตรงมา",
+        "Ace Cadet": "ตื่นเต้น กระตือรือร้น พูดจาเร็วและมีชีวิตชีวา",
+        "Smithy": "ช่างฝีมือ พูดจาเรียบง่าย ใจดี",
+        "Meowscular Chef": "แมวพูดได้ ใช้คำลงท้าย 'นะ' 'เมี๊ยว'"
+    },
+    "word_fixes": {
+        "Hunter": "นักล่า",
+        "Monster": "มอนสเตอร์",
+        "Quest": "เควสต์",
+        "Zenny": "เซนนี่"
+    },
+    "_game_info": {
+        "name": "Monster Hunter",
+        "code": "monhun", 
+        "description": "เกมล่ามอนสเตอร์สุดมันส์จาก Capcom"
+    }
+}

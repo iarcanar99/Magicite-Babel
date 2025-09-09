@@ -1,0 +1,27 @@
+{
+    "npcs": [
+        {
+            "name": "일A",
+            "role": "Character",
+            "description": "Learned from force translate correction",
+            "added_timestamp": 1752503848.0890355,
+            "confidence": 1.0
+        },
+        {
+            "name": "澤米娜女神像拉伊瑪女神的傳言",
+            "role": "Character",
+            "description": "Learned from force translate correction",
+            "added_timestamp": 1756274711.6267133,
+            "confidence": 1.0
+        },
+        {
+            "name": "路其雅",
+            "role": "Character",
+            "description": "Learned from force translate correction",
+            "added_timestamp": 1756277880.2085137,
+            "confidence": 1.0
+        }
+    ],
+    "last_updated": 1756277880.2085156,
+    "version": "1.0"
+}

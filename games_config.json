@@ -1,0 +1,38 @@
+{
+    "version": "1.0",
+    "last_updated": "2025-06-19",
+    "games": {
+        "magicite_babel": {
+            "id": "magicite_babel",
+            "name": "Magicite Babel",
+            "npc_file": "NPC.json",
+            "presets_file": "settings.json",
+            "description": "เกมหลัก Magicite Babel",
+            "icon": "icons/magicite.png",
+            "created_date": "2025-06-19",
+            "last_played": null
+        },
+        "sample_game": {
+            "id": "sample_game", 
+            "name": "Sample Game",
+            "npc_file": "NPC_sample.json",
+            "presets_file": "settings_sample.json",
+            "description": "เกมตัวอย่างสำหรับทดสอบ",
+            "icon": "icons/sample.png",
+            "created_date": "2025-06-19",
+            "last_played": null
+        }
+    },
+    "active_game": "magicite_babel",
+    "backup": {
+        "auto_backup": true,
+        "backup_on_switch": true,
+        "max_backups": 10,
+        "backup_directory": "backups/"
+    },
+    "settings": {
+        "show_game_info": true,
+        "confirm_before_switch": true,
+        "auto_reload_data": true
+    }
+}

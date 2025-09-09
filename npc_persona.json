@@ -1,0 +1,312 @@
+{
+    "main_characters": [
+        {
+            "firstName": "Ren Amamiya",
+            "lastName": "",
+            "gender": "Male",
+            "role": "ผู้นำกลุ่ม Phantom Thieves of Hearts",
+            "relationship": "เพื่อนสนิท"
+        },
+        {
+            "firstName": "Ryuji",
+            "lastName": "",
+            "gender": "Male",
+            "role": "Phantom Thief (Chariot)",
+            "relationship": "เพื่อนสนิท"
+        },
+        {
+            "firstName": "Ann Takamaki",
+            "lastName": "",
+            "gender": "Female",
+            "role": "Phantom Thief (Lovers)",
+            "relationship": "เพื่อนสนิท"
+        },
+        {
+            "firstName": "Morgana",
+            "lastName": "",
+            "gender": "Male",
+            "role": "Phantom Thief (Magician)",
+            "relationship": "เพื่อนสนิท"
+        },
+        {
+            "firstName": "Yusuke Kitagawa",
+            "lastName": "",
+            "gender": "Male",
+            "role": "Phantom Thief (Emperor)",
+            "relationship": "เพื่อนสนิท"
+        },
+        {
+            "firstName": "Makoto Niijima",
+            "lastName": "",
+            "gender": "Female",
+            "role": "Phantom Thief (Priestess)",
+            "relationship": "เพื่อนสนิท"
+        },
+        {
+            "firstName": "Futaba Sakura",
+            "lastName": "",
+            "gender": "Female",
+            "role": "Phantom Thief (Hermit)",
+            "relationship": "เพื่อนสนิท"
+        },
+        {
+            "firstName": "Haru Okumura",
+            "lastName": "",
+            "gender": "Female",
+            "role": "Phantom Thief (Empress)",
+            "relationship": "เพื่อนสนิท"
+        },
+        {
+            "firstName": "Goro Akechi",
+            "lastName": "",
+            "gender": "Male",
+            "role": "นักสืบ (Justice)",
+            "relationship": "ความสัมพันธ์ซับซ้อน"
+        },
+        {
+            "firstName": "Crow",
+            "lastName": "",
+            "gender": "Male",
+            "role": "Phantom Thief (ตัวตนของ Goro Akechi ในทีมโจร)",
+            "relationship": "สมาชิกชั่วคราว"
+        },
+        {
+            "firstName": "Arakira",
+            "lastName": "",
+            "gender": "Male",
+            "role": "Main character",
+            "relationship": "Player"
+        },
+        {
+            "firstName": "Manager",
+            "lastName": "",
+            "gender": "Male",
+            "role": "ผู้จัดการร้านกาแฟ",
+            "relationship": "ตัวละครภายในเมือง"
+        },
+        {
+            "firstName": "Sojiro",
+            "lastName": "",
+            "gender": "Male",
+            "role": "ผู้จัดการร้านกาแฟ",
+            "relationship": "ผู้จัดการร้านกาแฟ"
+        },
+        {
+            "firstName": "Principal",
+            "lastName": "",
+            "gender": "Male",
+            "role": "ผู้อำนวยการมหาลัย",
+            "relationship": "Neutral"
+        },
+        {
+            "firstName": "Kawakami",
+            "lastName": "",
+            "gender": "Female",
+            "role": "อาจารย์ประจำชั้น",
+            "relationship": "Neutral"
+        },
+        {
+            "firstName": "Kamoshida",
+            "lastName": "",
+            "gender": "Male",
+            "role": "Teacher",
+            "relationship": "enemy"
+        },
+        {
+            "firstName": "Arsene",
+            "lastName": "",
+            "gender": "none",
+            "role": "Guardian",
+            "relationship": "Ally"
+        }
+    ],
+    "npcs": [
+        {
+            "firstName": "Sae Niijima",
+            "lastName": "",
+            "gender": "Female",
+            "role": "อัยการ",
+            "relationship": "พี่สาวของ Makoto Niijima",
+            "name": "Sae Niijima"
+        },
+        {
+            "firstName": "Tae Takemi",
+            "lastName": "",
+            "gender": "Female",
+            "role": "หมอคลินิก",
+            "relationship": "ผู้ให้ยาและความช่วยเหลือ",
+            "name": "Tae Takemi"
+        },
+        {
+            "firstName": "Munehisa Iwai",
+            "lastName": "",
+            "gender": "Male",
+            "role": "เจ้าของร้านขายอาวุธ (Airsoft Shop)",
+            "relationship": "ผู้ค้าอาวุธ",
+            "name": "Munehisa Iwai"
+        },
+        {
+            "firstName": "Sadayo Kawakami",
+            "lastName": "",
+            "gender": "Female",
+            "role": "ครูและเมดพิเศษ",
+            "relationship": "ผู้ให้คำแนะนำ",
+            "name": "Sadayo Kawakami"
+        },
+        {
+            "firstName": "Toranosuke Yoshida",
+            "lastName": "",
+            "gender": "Male",
+            "role": "นักการเมืองข้างถนน",
+            "relationship": "ผู้ให้คำแนะนำด้านสังคม",
+            "name": "Toranosuke Yoshida"
+        },
+        {
+            "firstName": "Hifumi Togo",
+            "lastName": "",
+            "gender": "Female",
+            "role": "นักเล่นโชงิ",
+            "relationship": "ผู้ให้คำปรึกษาเชิงวางแผน",
+            "name": "Hifumi Togo"
+        },
+        {
+            "firstName": "Shinya Oda",
+            "lastName": "",
+            "gender": "Male",
+            "role": "เด็กเล่นเกมยิงปืน",
+            "relationship": "ผู้ให้ความเชี่ยวชาญด้านเกม",
+            "name": "Shinya Oda"
+        },
+        {
+            "firstName": "Yuuki Mishima",
+            "lastName": "",
+            "gender": "Male",
+            "role": "ผู้ดูแลเว็บไซต์ Phantom Aficionado",
+            "relationship": "ผู้สนับสนุนทีมโจร",
+            "name": "Yuuki Mishima"
+        },
+        {
+            "firstName": "Caroline",
+            "lastName": "",
+            "gender": "Female",
+            "role": "เจ้าหน้าที่ Velvet Room",
+            "relationship": "ผู้ดูแลการพัฒนาพลัง Persona",
+            "name": "Caroline"
+        },
+        {
+            "firstName": "Justine",
+            "lastName": "",
+            "gender": "Female",
+            "role": "เจ้าหน้าที่ Velvet Room",
+            "relationship": "ผู้ดูแลการพัฒนาพลัง Persona",
+            "name": "Justine"
+        },
+        {
+            "firstName": "Igor",
+            "lastName": "",
+            "gender": "Male",
+            "role": "ผู้นำ Velvet Room",
+            "relationship": "ผู้นำทางจิตวิญญาณ",
+            "name": "Igor"
+        },
+        {
+            "firstName": "Lavenza",
+            "lastName": "",
+            "gender": "Female",
+            "role": "ร่างรวมของ Caroline และ Justine",
+            "relationship": "ผู้ดูแล Velvet Room ระดับสูง",
+            "name": "Lavenza"
+        },
+        {
+            "name": "manager",
+            "role": "ผู้จัดการร้านกาแฟ"
+        }
+    ],
+    "lore": {
+        "Phantom Thieves of Hearts": "กลุ่มวัยรุ่นที่เข้าไปใน Metaverse เพื่อขโมย Treasure จาก Palace ของผู้มีจิตใจบิดเบี้ยว",
+        "Palace": "สถานที่ใน Metaverse ที่สะท้อนความบิดเบี้ยวในจิตใจเป้าหมาย",
+        "Mementos": "โลกใต้ดินสะท้อนจิตส่วนรวมของผู้คน",
+        "Metaverse": "โลกคู่ขนานที่สะท้อนจิตใจของมนุษย์",
+        "Persona": "พลังที่สะท้อนตัวตนภายในของผู้ครอบครอง",
+        "Velvet Room": "ห้องลึกลับเพื่อพัฒนาพลัง Persona",
+        "Arcana": "สัญลักษณ์ไพ่ทาโรต์ที่กำหนดประเภทพลัง",
+        "Shadow": "ตัวตนด้านลบของจิตใจ ปรากฏใน Metaverse",
+        "Reaper": "Shadow ชั้นสูงใน Mementos ที่อันตราย",
+        "Treasure": "แก่นแท้จิตใจภายใน Palace เป้าหมายของการโจรกรรม",
+        "All-Out Attack": "การโจมตีร่วมกันของทีม Phantom Thieves",
+        "Calling Card": "จดหมายเตือนที่ Phantom Thieves ส่งให้เป้าหมายก่อนขโมย Treasure",
+        "Confidant": "ผู้ที่ผู้เล่นสร้างสายสัมพันธ์ด้วยเพื่อเพิ่มความสามารถ",
+        "Blondie": "ไอ้หัวทอง"
+    },
+    "character_roles": {
+        "Amamiya": "นิ่ง ขรึม พูดน้อย เน้นการกระทำ แฝงความมุ่งมั่น",
+        "Sakamoto": "พูดตรงไปตรงมา ห้าว สบถบ้าง ติดเพื่อน",
+        "Takamaki": "พูดอ่อนโยน จริงใจ แฝงความเข้มแข็ง",
+        "Morgana": "พูดมั่นใจ อวดรู้ ชอบสอนผู้อื่น",
+        "Yusuke Kitagawa": "พูดแบบศิลปิน ภาษาสวยงาม ลุ่มหลงในความงาม",
+        "Makoto Niijima": "พูดมีเหตุผล มีความเป็นผู้นำ คิดวิเคราะห์",
+        "Futaba Sakura": "พูดเร็ว เนิร์ดเทคโนโลยี วิตกกังวล",
+        "Haru Okumura": "พูดสุภาพ อ่อนโยน ใจดี",
+        "Goro Akechi": "พูดคมคาย มีการศึกษา แฝงความลึกลับ",
+        "Crow": "พูดเป็นการเป็นงาน แต่เสแสร้ง",
+        "Sojiro Sakura": "พูดเหมือนผู้ใหญ่มีประสบการณ์ อบอุ่นแม้บ่น",
+        "Sae Niijima": "พูดเฉียบขาด ใช้เหตุผล เข้มงวด",
+        "Tae Takemi": "พูดเยือกเย็น มั่นใจในตนเอง",
+        "Munehisa Iwai": "พูดห้าว แสดงความเคี่ยวจากโลกใต้ดิน",
+        "Kawakami": "พูดแบบขาดความมั่นใจ ไม่มีความเชื่อใจ",
+        "Toranosuke Yoshida": "พูดแบบนักการเมือง มีวาทศิลป์",
+        "Hifumi Togo": "พูดสำรวม เน้นกลยุทธ์และเหตุผล",
+        "Shinya Oda": "พูดมั่นใจแบบเด็กเก่งเกม",
+        "Yuuki Mishima": "พูดตื่นเต้น เนิร์ด สนับสนุนทีม",
+        "Caroline": "พูดจาห้วน ดูถูก เข้มงวด",
+        "Justine": "พูดสุภาพ สุขุม",
+        "Igor": "พูดลึกลับ น่าขนลุก",
+        "Lavenza": "พูดสุภาพ เยือกเย็น ลึกลับ",
+        "Arakira": "ชายหนุ่ม ตัวเอกของเรื่อง พูดจาสั้นกระชับ ฉลาด",
+        "Kamoshida": "สำเนียงโรคจิต เอาแต่ใจ ใช้คำพูดเหนือจริง"
+    },
+    "word_fixes": {
+        "Well;": "Well,",
+        "Im": "I'm",
+        "$": "s",
+        "--": "...",
+        "-_": "...",
+        "_": "...",
+        "Wait_I": "Wait... I",
+        "tis_or_Tis": "'tis or 'Tis",
+        "Twas": "'Twas",
+        "|": "I",
+        "__": "...",
+        "22": "???",
+        "222": "???",
+        "zp": "2p",
+        "ZPI": "2P",
+        "ZB": "2B",
+        "95": "9S",
+        "Tll": "I'll",
+        "lll": "I'll",
+        "tll": "I'll",
+        "1ll": "i'll",
+        "-": "...",
+        "'ll": "will",
+        "1'll": "I will",
+        "FII": "I will",
+        "Arlsene": "Arsene",
+        "AFisene": "Arsene",
+        "AFsene": "Arsene",
+        "Blondiel": "Blondie !",
+        "III": "I will",
+        "Kawaakal": "Kawakami",
+        "akam Kaww": "Kawakami",
+        "Sakamotol": "Sakamoto !",
+        "Kalwakant": "Kawakami",
+        "Kamoshiou": "Kamoshida",
+        "Kamoshia": "Kamoshida",
+        "Kamoshl": "Kamoshida"
+    },
+    "_game_info": {
+        "name": "PERSONA",
+        "code": "persona",
+        "description": "ข้อมูล NPC จากเกม PERSONA"
+    }
+}

@@ -1,0 +1,360 @@
+{
+    "api_parameters": {
+        "model": "gemini-2.0-flash",
+        "displayed_model": "gemini-2.0-flash",
+        "max_tokens": 600,
+        "temperature": 0.8,
+        "top_p": 0.9,
+        "ocr_settings": {
+            "languages": [
+                "en",
+                "ja"
+            ],
+            "confidence_threshold": 0.65,
+            "image_preprocessing": {
+                "resize_factor": 2.0,
+                "contrast": 1.5,
+                "sharpness": 1.3,
+                "threshold": 128
+            }
+        },
+        "translation_settings": {
+            "source_languages": [
+                "en",
+                "ja"
+            ],
+            "target_language": "th",
+            "preserve_names": true,
+            "modern_style": true,
+            "flirty_tone": true,
+            "use_emojis": true
+        },
+        "special_chars": {
+            "japanese_range": [
+                "\u3040-\u309f",
+                "\u30a0-\u30ff",
+                "\u4e00-\u9faf",
+                "\uff00-\uffef"
+            ],
+            "thai_range": [
+                "\u0e00-\u0e7f"
+            ],
+            "allowed_symbols": [
+                "...",
+                "\u2014",
+                "!",
+                "?",
+                "\ud83d\udc95",
+                "\u2728",
+                "\ud83e\udd7a",
+                "\ud83d\ude0f"
+            ]
+        }
+    },
+    "font_size": 20,
+    "font": "Anuphan",
+    "line_spacing": -50,
+    "width": 1055,
+    "height": 207,
+    "enable_force_translate": true,
+    "enable_auto_hide": true,
+    "enable_ui_toggle": true,
+    "enable_click_translate": false,
+    "splash_screen_type": "image",
+    "bg_color": "#1f1f1f",
+    "translate_areas": {
+        "A": {
+            "start_x": 852,
+            "start_y": 656,
+            "end_x": 1114,
+            "end_y": 700
+        },
+        "B": {
+            "start_x": 838,
+            "start_y": 700,
+            "end_x": 1641,
+            "end_y": 907
+        },
+        "C": {
+            "start_x": 0,
+            "start_y": 0,
+            "end_x": 0,
+            "end_y": 0
+        }
+    },
+    "current_area": "A+B",
+    "current_preset": 1,
+    "last_manual_preset_selection_time": 1756289543.3675227,
+    "display_scale": 1.0,
+    "use_gpu_for_ocr": false,
+    "screen_size": "1920x1080",
+    "shortcuts": {
+        "toggle_ui": "alt+l",
+        "start_stop_translate": "f9",
+        "force_translate": "r-click",
+        "force_translate_key": "f10"
+    },
+    "logs_ui": {
+        "width": 300,
+        "height": 950,
+        "font_size": 14,
+        "visible": true,
+        "x": 6,
+        "y": 47,
+        "transparency_mode": "A",
+        "font_family": "Anuphan"
+    },
+    "buffer_settings": {
+        "cache_timeout": 300,
+        "max_cache_size": 100,
+        "similarity_threshold": 0.85
+    },
+    "logs_settings": {
+        "enable_dual_logs": true,
+        "translation_only_logs": true,
+        "logs_path": "logs",
+        "clean_logs_after_days": 7
+    },
+    "area_presets": [
+        {
+            "name": "dialog",
+            "role": "dialog",
+            "areas": "A+B",
+            "coordinates": {
+                "A": {
+                    "start_x": 852,
+                    "start_y": 656,
+                    "end_x": 1114,
+                    "end_y": 700
+                },
+                "B": {
+                    "start_x": 838,
+                    "start_y": 700,
+                    "end_x": 1641,
+                    "end_y": 907
+                }
+            }
+        },
+        {
+            "name": "lore",
+            "role": "lore",
+            "areas": "C",
+            "coordinates": {
+                "C": {
+                    "start_x": 1072,
+                    "start_y": 217,
+                    "end_x": 1538,
+                    "end_y": 572
+                }
+            }
+        },
+        {
+            "name": "choice",
+            "role": "choice",
+            "areas": "A+B",
+            "coordinates": {
+                "A": {
+                    "start_x": 186,
+                    "start_y": 425,
+                    "end_x": 284,
+                    "end_y": 465
+                },
+                "B": {
+                    "start_x": 454,
+                    "start_y": 391,
+                    "end_x": 655,
+                    "end_y": 498
+                }
+            }
+        },
+        {
+            "name": "Preset 4",
+            "role": "custom",
+            "areas": "C",
+            "coordinates": {
+                "C": {
+                    "start_x": 351,
+                    "start_y": 629,
+                    "end_x": 975,
+                    "end_y": 705
+                }
+            },
+            "custom_name": "center"
+        },
+        {
+            "name": "Preset 5",
+            "role": "custom",
+            "areas": "C",
+            "coordinates": {
+                "C": {
+                    "start_x": 360,
+                    "start_y": 273,
+                    "end_x": 960,
+                    "end_y": 339
+                }
+            },
+            "custom_name": "skill-1"
+        },
+        {
+            "name": "Preset 6",
+            "role": "custom",
+            "areas": "C",
+            "coordinates": {
+                "C": {
+                    "start_x": 1069,
+                    "start_y": 204,
+                    "end_x": 1555,
+                    "end_y": 641
+                }
+            },
+            "custom_name": "skill-2"
+        }
+    ],
+    "custom_themes": {
+        "Theme1": {
+            "name": "\u0e18\u0e35\u0e21\u0e40\u0e23\u0e34\u0e48\u0e21\u0e15\u0e49\u0e19",
+            "accent": "#6c5ce7",
+            "accent_light": "#b8b0f3",
+            "highlight": "#6c5ce7",
+            "secondary": "#4b025b",
+            "text": "#ffffff",
+            "text_dim": "#b2b2b2",
+            "button_bg": "#262637"
+        },
+        "Theme2": {
+            "name": "\u0e18\u0e35\u0e21\u0e1f\u0e49\u0e32",
+            "accent": "#79f5ff",
+            "accent_light": "#e9fdff",
+            "highlight": "#79f5ff",
+            "secondary": "#018092",
+            "text": "#ffffff",
+            "text_dim": "#b2b2b2",
+            "button_bg": "#262637"
+        },
+        "Theme3": {
+            "name": "\u0e18\u0e35\u0e21\u0e40\u0e02\u0e35\u0e22\u0e27",
+            "accent": "#2E7D32",
+            "accent_light": "#3ba241",
+            "highlight": "#2E7D32",
+            "secondary": "#00BFA5",
+            "text": "#ffffff",
+            "text_dim": "#b2b2b2",
+            "button_bg": "#262637"
+        },
+        "Theme4": {
+            "name": "\u0e18\u0e35\u0e21\u0e41\u0e14\u0e07",
+            "accent": "#C62828",
+            "accent_light": "#dd5858",
+            "highlight": "#C62828",
+            "secondary": "#FF5252",
+            "text": "#ffffff",
+            "text_dim": "#b2b2b2",
+            "button_bg": "#262637"
+        },
+        "Theme5": {
+            "name": "Gold",
+            "accent": "#b5865b",
+            "accent_light": "#ceaf93",
+            "highlight": "#b5865b",
+            "secondary": "#725521",
+            "text": "#ffffff",
+            "text_dim": "#b2b2b2",
+            "button_bg": "#262637"
+        }
+    },
+    "theme": "Theme5",
+    "show_starter_guide": false,
+    "cpu_limit": 100,
+    "enable_hover_translation": false,
+    "ui_positions": {
+        "main_ui": "300x400+66+60",
+        "mini_ui": "200x48+0+1",
+        "translated_ui": "1055x207+640+345",
+        "control_ui": "340x260+114+497",
+        "monitor_info": {
+            "primary": "1920x1080+0+0",
+            "all_monitors": [
+                {
+                    "w": 1920,
+                    "h": 1080,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "w": 3760,
+                    "h": 1920,
+                    "x": 1920,
+                    "y": 0
+                }
+            ]
+        },
+        "logs_ui": "300x950+6+47"
+    },
+    "themes": {
+        "theme1": {
+            "name": "Purple Theme",
+            "accent": "#6c5ce7",
+            "accent_light": "#a29bfe",
+            "highlight": "#6c5ce7",
+            "secondary": "#00c2cb",
+            "text": "#ffffff",
+            "text_dim": "#b2b2b2",
+            "button_bg": "#262637"
+        },
+        "theme2": {
+            "name": "Blue Theme",
+            "accent": "#1E88E5",
+            "accent_light": "#63aced",
+            "highlight": "#1E88E5",
+            "secondary": "#03A9F4",
+            "text": "#ffffff",
+            "text_dim": "#b2b2b2",
+            "button_bg": "#262637"
+        },
+        "theme3": {
+            "name": "Green Theme",
+            "accent": "#2E7D32",
+            "accent_light": "#3ba241",
+            "highlight": "#2E7D32",
+            "secondary": "#00BFA5",
+            "text": "#ffffff",
+            "text_dim": "#b2b2b2",
+            "button_bg": "#262637"
+        },
+        "theme4": {
+            "name": "Red Theme",
+            "accent": "#C62828",
+            "accent_light": "#dd5858",
+            "highlight": "#C62828",
+            "secondary": "#FF5252",
+            "text": "#ffffff",
+            "text_dim": "#b2b2b2",
+            "button_bg": "#262637"
+        },
+        "theme5": {
+            "name": "Dark Theme",
+            "accent": "#333333",
+            "accent_light": "#424242",
+            "highlight": "#333333",
+            "secondary": "#888888",
+            "text": "#ffffff",
+            "text_dim": "#b2b2b2",
+            "button_bg": "#262637"
+        }
+    },
+    "current_theme": "theme3",
+    "hover_preset_settings": {
+        "1": true,
+        "2": true,
+        "3": false,
+        "4": false,
+        "5": false,
+        "6": false
+    },
+    "bg_alpha": 0.86,
+    "logs_transparency_mode": "A",
+    "logs_reverse_mode": false,
+    "logs_position_locked": true,
+    "logs_locked_geometry": "400x960+6+47",
+    "font_target_mode": "translated_logs"
+}

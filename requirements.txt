@@ -1,0 +1,23 @@
+# Core Dependencies
+pillow>=9.0.0
+opencv-python>=4.5.0
+numpy>=1.21.0
+easyocr>=1.6.0
+pywin32>=301
+
+# AI and Translation
+google-generativeai>=0.3.0
+requests>=2.28.0
+
+# GUI and Interface
+tkinter-tooltip>=2.1.0
+
+# Image Processing  
+pytesseract>=0.3.9
+
+# System and Performance
+psutil>=5.9.0
+keyboard>=0.13.5
+
+# Development and Utilities
+logging>=0.4.9.6

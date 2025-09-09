@@ -446,8 +446,8 @@ class MagicBabelApp:
             splash.attributes("-topmost", True)
 
             # Check for video or image based on settings
-            video_path = resource_path("MBB_splash_vid.mp4")
-            image_path = resource_path("MBB_splash.png")
+            video_path = resource_path("assets/MBB_splash_vid.mp4")
+            image_path = resource_path("assets/MBB_splash.png")
 
             try:
                 screen_width = splash.winfo_screenwidth()
